@@ -1,11 +1,16 @@
 menu:
   Home:
   Archives: archives
+  Wishlist: wishlist
+  Chronicles: chronicles
+  Donate: donate
+  Subscribe: atom.xml
 
 widgets:
 - search
 - category
-- tag
+- tagcloud
+- recent_posts
 
 excerpt_link: Read More
 
@@ -13,9 +18,10 @@ twitter:
   username:
   show_replies: false
   tweet_count: 5
+  enable: false
 
 addthis:
-  enable: true
+  enable: false
   pubid:
   facebook: true
   twitter: true
@@ -27,7 +33,7 @@ fancybox: true
 google_analytics:
 rss:
 
-comment_provider: facebook
+comment_provider: false
 # Facebook comment
 facebook:
   appid: 123456789012345
